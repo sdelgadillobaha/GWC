@@ -7,13 +7,12 @@ print(start)
 while keepplaying == "Yes" or keepplaying == "yes":
     userchoice = input("Should I go left or right?")
     if userchoice == "left" or userchoice == "Left":
-        print('You found your friend! ')
+        print('You found your friend!')
         print("")
-        keepplaying = input("Would you like to try again? Type yes or no.")
+        keepplaying = input('Would you like to try again? Type yes or no.')
     if keepplaying == "no":
         quit()
-    else: 
-        print(start)
+
     elif userchoice == "right" or userchoice == "Right":
         print("Your friend is no where to be seen. She will be lost forever.")
         keepplaying = input('Would you like to try again? Type yes or no.')
@@ -24,7 +23,6 @@ while keepplaying == "Yes" or keepplaying == "yes":
         keepplaying = input('Would you like to try again? Type yes or no.')
     if keepplaying == "no":
         quit()
-keepplaying = "yes"
-while keepplaying == "yes" or keepplaying == "Yes":
-    print(start)
+    elif:
+        print(start)
 

@@ -35,3 +35,19 @@
 
 # mylist_length = len(mylist)
 
+# # FUNCTIONS: PRINT(), INPUT(), RANGE()
+
+# def my_print_func():
+#     print("Sup, Bro")
+
+# my_print_func()
+
+def square(num):
+    return num ** 2
+
+print(square(4))
+
+def add(a,b):
+    return a + b 
+print(add(2,4))
+
