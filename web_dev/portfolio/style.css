@@ -1,0 +1,29 @@
+h1 {
+    color:indigo;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#first{
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    color: purple;
+}
+.center {
+    display: block;
+    width: 50%;
+    border: 3px solid;
+    margin-left: 10%
+}
+
+body {
+    background-color: lavender;
+}
+.cent{
+    text-align: center
+}
+.img {
+    display: block;
+    width: 40%;
+    margin-left: 10%
+}
